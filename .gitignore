@@ -57,6 +57,7 @@ next-env.d.ts
 /pages/firmware.tsx
 /pages/contact-us.tsx
 /pages/about-us.tsx
-/support
-/support/warranty-claim.tsx
+/pages/support
+/pages/support/*
+
 
