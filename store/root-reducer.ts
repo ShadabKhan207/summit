@@ -34,6 +34,11 @@ import MultiLanguageReducer from './slices/general_slices/multilang-slice';
 import SelectedFilterLangDataScreen from './slices/general_slices/selected-multilanguage-slice';
 import DealerledgerSummary from './slices/dealer-ledger-slice/dealer-ledger-summary';
 import Dealerledger from './slices/dealer-ledger-slice/dealer-ledger-slice';
+import Banner from './slices/general_slices/banner-slice';
+import ProductListTestimonial from './slices/product-listing-page-slices/product-testimonial';
+import HomeMarque from './slices/home_page_slice/home-marque-slice';
+import CompanyMoto from './slices/home_page_slice/home-company-moto-slice';
+import ProductReview from './slices/product-detail-page-slices/product-review-slice/product-review-slice';
 import productOnHomeSlice from './slices/home_page_slice/get-product-list-on-home-slice';
 import WarrantySerailNoDetails from './slices/warranty-check-slice/get-serial-no-details-slice';
 import WarrantyGetClaim from './slices/warranty-check-slice/get-warranty-claim-slice';
@@ -81,11 +86,16 @@ const appReducer = combineReducers({
   SelectedFilterLangDataScreen: SelectedFilterLangDataScreen,
   DealerledgerSummaryScreen: DealerledgerSummary,
   DealerledgerScreen: Dealerledger,
-  productListOnHome: productOnHomeSlice,
+  Banner: Banner,
+  ProductListTestimonial: ProductListTestimonial,
+  HomeMarque: HomeMarque,
+  CompanyMoto: CompanyMoto,
+  ProductReview: ProductReview,
   WarrantySerailNoDetailsSlice: WarrantySerailNoDetails,
   WarrantyGetClaimSlice: WarrantyGetClaim,
   GetCustomerWarrantyDetailsSlice: getCustomerWarrantyDetailsSlice,
-  WarrantySerialNoListSlice:WarrantySerialNoListSlice,
+  WarrantySerialNoListSlice: WarrantySerialNoListSlice,
+  productListOnHome: productOnHomeSlice,
   productSpecification:productSpecificationScreen,
   validatePincode:ValidatePincodeScreen,
   ContactUsSlice: contactusSlice,
