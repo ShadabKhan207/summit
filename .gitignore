@@ -48,3 +48,6 @@ next-env.d.ts
 /pages/support
 /pages/support/*
 /pages/warranty
+/pages/cancellation-refund-policy.tsx
+/pages/privacy-policy.tsx
+/pages/terms-of-services.tsx
