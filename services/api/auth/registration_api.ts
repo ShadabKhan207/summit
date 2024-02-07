@@ -12,9 +12,9 @@ const RegisterFetch = async (request: any) => {
   let url: any
   if (request?.sales_person) {
 
-     url = `${CONSTANTS.API_BASE_URL}${CONSTANTS.API_MANDATE_PARAMS}${params}&email=${request.email}&name=${request.name}&contact_no=${request.contact}&address=${request.address_1}&address_2=${request.address_2}&gst_number=${request.gst_number}&city=${request.city}&state=${request.state}&postal_code=${request.postal_code}&password=${encodedPassword}&territory=All Territories&sales_person=${request.sales_person}`
+     url = `${CONSTANTS.API_BASE_URL}${CONSTANTS.API_MANDATE_PARAMS}${params}&email=${request.email}&name=${request.name}&contact_no=91${request.contact}&address=${request.address_1}&address_2=${request.address_2}&gst_number=${request.gst_number}&city=${request.city}&state=${request.state}&postal_code=${request.postal_code}&password=${encodedPassword}&territory=All Territories&sales_person=${request.sales_person}`
   }else{
-     url = `${CONSTANTS.API_BASE_URL}${CONSTANTS.API_MANDATE_PARAMS}${params}&email=${request.email}&name=${request.name}&contact_no=${request.contact}&address=${request.address_1}&address_2=${request.address_2}&gst_number=${request.gst_number}&city=${request.city}&state=${request.state}&postal_code=${request.postal_code}&password=${encodedPassword}&territory=All Territories`
+     url = `${CONSTANTS.API_BASE_URL}${CONSTANTS.API_MANDATE_PARAMS}${params}&email=${request.email}&name=${request.name}&contact_no=91${request.contact}&address=${request.address_1}&address_2=${request.address_2}&gst_number=${request.gst_number}&city=${request.city}&state=${request.state}&postal_code=${request.postal_code}&password=${encodedPassword}&territory=All Territories`
 
   }
 
